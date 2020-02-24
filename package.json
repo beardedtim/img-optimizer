@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint ./src/**/*.ts",
+    "format": "prettier --write {src/**,src}/*.ts"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.1",
+    "@types/node": "^13.7.4",
+    "@types/node-fetch": "^2.5.4",
+    "@types/pino": "^5.15.5",
+    "@types/ramda": "^0.26.41",
+    "@types/sharp": "^0.24.0",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.4",
+    "aws-sdk": "^2.624.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "node-fetch": "^2.6.0",
+    "pino": "^5.16.0",
+    "ramda": "^0.27.0",
+    "request": "^2.88.2",
+    "sharp": "^0.24.1"
+  }
+}
