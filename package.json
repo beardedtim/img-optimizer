@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@types/request": "^2.48.4",
-    "aws-sdk": "^2.624.0",
+    "aws-sdk": "^2.814.0",
     "koa": "^2.11.0",
     "koa-body": "^4.1.1",
     "node-fetch": "^2.6.0",
